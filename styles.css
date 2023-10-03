@@ -50,7 +50,7 @@
 	padding: 0; 
 	display: flex; 
 	flex-wrap: wrap; 
-	gap: 5px
+	gap: -8px
 }
 #flex-section3 .tags li { 
 	background-color: #ddd; 
