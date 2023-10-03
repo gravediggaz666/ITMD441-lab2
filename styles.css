@@ -39,33 +39,56 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	flex-direction: column;
 }
 
 #flex-section3 .tags ul {
-
+	list-style: none; 
+	padding: 0; 
+	display: flex; 
+	flex-wrap: wrap; 
+	gap: 5px
 }
-
+#flex-section3 .tags li { 
+	background-color: #ddd; 
+	color: #000; 
+	padding: 3px 8px; 
+	border: 2px solid #555; 
+	border-radius: 4px; 
+	font-size: 0.75rem; 
+	margin: 2px 5px; }
 /* end Flexbox Part 3 */
 
 
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid; 
+	grid-template-columns: repeat(4, 1fr); 
+	grid-gap: 20px;
 }
 
 /* end Grid Part 1 */
 
 
 /* Grid Part 2 */
-
+#grid-section2 .grid { 
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr); 
+	grid-template-rows: repeat(3, 1fr); 
+	grid-gap: 10px; 
+}
 #grid-section2 .gridboxblue {
-
+	grid-column: 1 / 4;
+    grid-row: 1 / 4; 
 }
 
 #grid-section2 .gridboxred {
-
+	grid-column: 2 / 3; 
+	grid-row: 2 / 3;
 }
 
 /* end Grid Part 2 */
