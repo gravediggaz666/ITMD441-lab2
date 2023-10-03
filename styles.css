@@ -1,16 +1,23 @@
 /* Flexbox Part 1 */
-
-#flex-section1 ul {
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-	padding: 0;
+#flex-section1 .box {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
-#flex-section1 ul li {
-	margin:0;
+#flex-section1 ul {
+	list-style: none;
 	padding:0;
-	flex:1;
+	margin: 0;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+#flex-section1 ul li {
 	text-align: center;
+	margin:0 20px;
+	padding:0 5px;
 }
 /* end Flexbox Part 1 */
 
@@ -21,6 +28,7 @@
 	display: flex; 
 	list-style: none; 
 	padding: 0; 
+	margin:0;
 } 
 	#flex-section2 li { 
 		flex: 1; 
@@ -49,7 +57,8 @@
 
 #flex-section3 .tags ul {
 	list-style: none; 
-	padding: 0; 
+	padding: 0;
+	margin: 0; 
 	display: flex; 
 	flex-wrap: wrap; 
 	gap: -8px
