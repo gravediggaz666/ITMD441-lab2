@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	padding: 5px;
+	padding: 2;
 }
 #flex-section1 ul li {
 	flex:1;
