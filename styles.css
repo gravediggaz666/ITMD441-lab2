@@ -2,14 +2,17 @@
 
 #flex-section1 ul {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	list-style: none;
 	padding: 0;
 }
 #flex-section1 ul li {
-	flex:1;
+	margin-right: 10px;
 	text-align: center;
 }
+#flex-section1 ul li:last-child {
+	margin-right: 0;
+  }
 /* end Flexbox Part 1 */
 
 
